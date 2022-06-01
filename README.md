@@ -12,6 +12,7 @@ setUp，tearDown：在每次执行test方法前后会执行一遍setUp、tearDow
 >使用浏览器驱动时无需最新的驱动也能正常使用浏览器的大部分功能，无需实时更新浏览器驱动  
 
 ## chapter.2  
+hansh:83dfa1dcdb2e27474cd512fac539470068613d5c  
 setup,teardown  
 pytest中的setup函数分为多种  
 * setup/setup_method 在test类中，每执行一个类中的case就执行一次  
