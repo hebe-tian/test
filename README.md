@@ -18,7 +18,8 @@ pytest中的setup函数分为多种
 * setup/setup_method 在test类中，每执行一个类中的case就执行一次  
 * setup_class 在test类中，执行类的时候会执行一次  
 * setup_function 不在test类中，每执行一个case就会执行一次  
-* setup_module 不在test类中，执行类的时候会执行一次
+* setup_module 不在test类中，执行类的时候会执行一次  
+  
 把打开浏览器并访问网址的操作写到setup函数中，把退出浏览器的操作写进teardown函数中，这样就不需要在每个testcase中写大量的重复操作，在case里的代码主要集中在操作-断言  
 setup，teardown以及case里面的driver要加self，driver是在setup-case-teardown中共用的  
 下一步：把变量抽取出来，不直接放在Class中（暂时还是放在py文件中，后续优化可以放在配置文件或者其他地方）
