@@ -32,6 +32,6 @@ setup，teardown以及case里面的driver要加self，driver是在setup-case-tea
 >```
 
 ## chapter.3  
-hash:  
+hash:6a8c1b7288b2b4361afa40ff625d699c4688b2c6  
 这一次的commit里，把代码中的url，xpath都抽出来存放在json文件里，然后在代码中读取json文件里的内容，赋值给url和xpath  
 下一步：优化测试报告
