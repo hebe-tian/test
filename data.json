@@ -1,0 +1,12 @@
+{
+    "url":"http://diudiu.pythonanywhere.com/",
+    "page":{
+        "movie_path":"/html/body/nav/ul/li[1]/a",
+        "book_path":"/html/body/nav/ul/li[2]/a",
+        "assert_text_path":"/html/body/p",
+        "login_path":"/html/body/nav/ul/li[3]/a",
+        "login_text_path":"/html/body/h3",
+        "about_me_path":"/html/body/nav/ul/li[4]/a",
+        "about_me_text_path":"/html/body/h2[2]"
+    }
+}
