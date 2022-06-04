@@ -37,7 +37,7 @@ hash:6a8c1b7288b2b4361afa40ff625d699c4688b2c6
 下一步：优化测试报告
 
 ## chapter.4  
-hash:  
+hash:4ca033e0c4b6790c2cb2b9e426a574516c28e109  
 使用pytest执行后输出的测试报告展示在命令行，用.来表示成功，E和Fail代表了失败  
 使用pytest-html库可以输出html形式的测试报告  
 下一步：添加测试类-登录登出
