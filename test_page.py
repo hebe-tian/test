@@ -2,6 +2,7 @@
 """
 @Author : hebe_tian
 """
+import pytest
 from selenium import webdriver
 import json
 
@@ -25,7 +26,7 @@ class TestPages:
     def setup(self):
         options = webdriver.ChromeOptions()
         options.add_argument('--incognito')
-        self.driver = webdriver.Chrome(chrome_options=options)
+        self.driver = webdriver.Chrome(options=options)
         self.driver.get(url)
 
     def test_page_movies(self):
@@ -50,3 +51,7 @@ class TestPages:
 
     def teardown(self):
         self.driver.quit()
+
+
+if __name__ == '__main__':
+    pytest.main(["--html", "./reports/report.html"])

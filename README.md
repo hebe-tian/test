@@ -35,3 +35,9 @@ setup，teardown以及case里面的driver要加self，driver是在setup-case-tea
 hash:6a8c1b7288b2b4361afa40ff625d699c4688b2c6  
 这一次的commit里，把代码中的url，xpath都抽出来存放在json文件里，然后在代码中读取json文件里的内容，赋值给url和xpath  
 下一步：优化测试报告
+
+## chapter.4  
+hash:  
+使用pytest执行后输出的测试报告展示在命令行，用.来表示成功，E和Fail代表了失败  
+使用pytest-html库可以输出html形式的测试报告  
+下一步：添加测试类-登录登出
