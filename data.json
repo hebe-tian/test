@@ -7,6 +7,14 @@
         "login_path":"/html/body/nav/ul/li[3]/a",
         "login_text_path":"/html/body/h3",
         "about_me_path":"/html/body/nav/ul/li[4]/a",
-        "about_me_text_path":"/html/body/h2[2]"
+        "about_me_text_path":"/html/body/h2[2]",
+
+        "username_path": "/html/body/form/input[1]",
+        "password_path": "/html/body/form/input[2]",
+        "login_submit_path": "/html/body/form/input[3]",
+        "logout_path":"/html/body/nav/ul/li[4]/a",
+        "settings_path": "/html/body/nav/ul/li[3]/a",
+        "settings_text_path":"/html/body/h3",
+        "alert_path": "/html/body/div"
     }
 }
