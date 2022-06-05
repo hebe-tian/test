@@ -43,5 +43,6 @@ hash:4ca033e0c4b6790c2cb2b9e426a574516c28e109
 下一步：添加测试类-登录登出
 
 ## charter.5  
-hash:  
-添加了登录和登出的测试类
+hash:d181fc2b47c026a009189135301c67b39fcc52a4  
+添加了登录和登出的测试类  
+在gitignore文件红添加了userdata.json，git add 的时候没有存储用户数据的文件（不是bug）
